@@ -82,6 +82,7 @@
 		336F827A26B98FCF00AFFCEC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		336F827C26B98FCF00AFFCEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		336F828826B9909C00AFFCEC /* LocalSwiftPackage */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LocalSwiftPackage; sourceTree = "<group>"; };
+		336F828F26B9920000AFFCEC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +107,7 @@
 		336F824626B98EDD00AFFCEC = {
 			isa = PBXGroup;
 			children = (
+				336F828F26B9920000AFFCEC /* README.md */,
 				336F828826B9909C00AFFCEC /* LocalSwiftPackage */,
 				336F825126B98EDD00AFFCEC /* SampleApp */,
 				336F826426B98FCD00AFFCEC /* SampleWatchApp */,
@@ -469,6 +471,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SampleApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 3FJM2NXNTX;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SampleApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -490,6 +493,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SampleApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 3FJM2NXNTX;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SampleApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -511,6 +515,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3FJM2NXNTX;
 				ENABLE_BITCODE = YES;
 				IBSC_MODULE = SampleWatchApp_Extension;
 				INFOPLIST_FILE = SampleWatchApp/Info.plist;
@@ -531,6 +536,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3FJM2NXNTX;
 				ENABLE_BITCODE = YES;
 				IBSC_MODULE = SampleWatchApp_Extension;
 				INFOPLIST_FILE = SampleWatchApp/Info.plist;
@@ -550,6 +556,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SampleWatchApp Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 3FJM2NXNTX;
 				ENABLE_BITCODE = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SampleWatchApp Extension/Info.plist";
@@ -574,6 +581,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SampleWatchApp Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 3FJM2NXNTX;
 				ENABLE_BITCODE = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SampleWatchApp Extension/Info.plist";
