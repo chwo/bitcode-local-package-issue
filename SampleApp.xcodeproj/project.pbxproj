@@ -80,6 +80,7 @@
 		336F827726B98FCF00AFFCEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		336F827A26B98FCF00AFFCEC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		336F827C26B98FCF00AFFCEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		336F828826B9909C00AFFCEC /* LocalSwiftPackage */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LocalSwiftPackage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +104,7 @@
 		336F824626B98EDD00AFFCEC = {
 			isa = PBXGroup;
 			children = (
+				336F828826B9909C00AFFCEC /* LocalSwiftPackage */,
 				336F825126B98EDD00AFFCEC /* SampleApp */,
 				336F826426B98FCD00AFFCEC /* SampleWatchApp */,
 				336F827026B98FCE00AFFCEC /* SampleWatchApp Extension */,
