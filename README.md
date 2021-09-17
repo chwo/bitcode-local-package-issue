@@ -7,6 +7,10 @@
 
 Link to [Swift Forums post](https://forums.swift.org/t/bitcode-warning-when-swift-package-is-used-in-watch-app/50897)
 
+### :white_check_mark: Resolved:
+
+It turned out that the root cause was explicitly setting `ENABLE_BITCODE=YES` in the watchOS extension target. This applies bitcode to all builds whereas with the default setting, bitcode is only selectively applied by Xcode. So sticking to the default value solved the issue.
+
 ## Actual result
 Building the app on simulator builds gives the following bitcode warning in the `Built target SampleWatchApp Extension: Link SampleWatchApp Extension (arm64)` step:
 
